@@ -1,30 +1,23 @@
 person = {}
-person['fname'] = 'Joe'
-person['lname'] = 'Fonebone' 
-person['age'] = 51
-person['spouse'] = 'Edna'
-person['children'] = ['Ralph', 'Betty', 'Joey']
-person['pets'] = {'dog': 'Fido', 'cat': 'Sox'} 
+person["fname"] = "Joe"
+person["lname"] = "Fonebone"
+person["age"] = 51
+person["spouse"] = "Edna"
+person["children"] = ["Ralph", "Betty", "Joey"]
+person["pets"] = {"dog": "Fido", "cat": "Sox"}
 
-#print(person)
+# print(person)
 
-#print(type(person['children']))
+# print(type(person["children"]))
 
+# print (type(person["pets"]))
 
-#print(person['children'][2])
+# print child - "Betty"
 
-
-#print(person['pets']['cat'])
-
-
-#for i in person['children']:
-#     print(i)
-
-for i,j in person['pets'].items():
-     print(i)
-     
+# print the pet name of the cat
 
 
+# use a for loop to print out all the children
 
 
-                      
+# use a for loop to print out the type of pet and name of pet
