@@ -119,7 +119,7 @@ print()
 
 
 
-
+'''
 print()
 print('*****  start section 6 - using get and clear ********')
 print()
@@ -130,7 +130,7 @@ print(phone)
 phonebook.clear()
 print(phonebook)
 
-
+'''
 print()
 print('*****  end section 6 ********')
 print()
@@ -140,10 +140,10 @@ print()
 print('*****  start section 7 - using pop method ********')
 print()
 
-#emove = phonebook.pop('Chris', 'key not found')
+remove = phonebook.pop('Chris', 'key not found')
 
-#print(remove)
-#print(phonebook)
+print(remove)
+print(phonebook)
 
 
 print()
@@ -156,10 +156,10 @@ print()
 print('*****  start section 8 - using popitem ********')
 print()
 
-#a = phonebook.popitem()
+a = phonebook.popitem()
 
-#print(a)
-#print(phonebook)
+print(a)
+print(phonebook)
 
 
 

@@ -1,4 +1,4 @@
-room-number,use,sq-ft,price
+room_number,use,sq-ft,price
 100,reception,50,75
 101,waiting,250,75
 102,examination,125,150
